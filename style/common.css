@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* マージンをリセット */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* フロートしているナビゲーションのリストアイテムのフロート解除を、直下のHTML要素の有無に関わらずクリアするための設定（俗に言うclearfix） */
+#navi ul:after {
+  height: 0;
+  visibility: hidden;
+  content: ".";
+  display: block;
+  clear: both;
+}
+
+/* 配置の基準の設定 */
+#container, #main, #mainbox {
+  position: relative;
+  width: 1000px;
+  /* Powerd By FC2.com の表示がページまん中に出るのでheight指定解除 2011/06/20 t.kasai */
+  /*height: 450px;*/
+}
+
+/* サイドメニューは絶対配置 */
+#sidenavi {
+  position: absolute;
+  left: 0;
+}
+
+/* サイドコンテンツは絶対配置 */
+#sidebox {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* 背景写真型のコンテンツは絶対配置 */
+#contentsbox, #navibox {
+  position: absolute;
+}
+
+#mainimgbox {
+  display: block;
+  position: absolute;
+}
+
+/* ナビゲーション，フッタでは折り返しを抑制 */
+#navi, #footer {
+  white-space: nowrap;
+}
+
+/* ナビゲーション，フッタの箇条書きは横並びリスト */
+#navi ul, #footer ul {
+  margin: 0;
+  list-style: none;
+}
+
+#navi ul li, #footer ul li {
+  display: inline;
+  padding-left: 16px;
+  padding-right: 0.5em;
+  background: left center no-repeat;
+}
+
+/* サイドメニューのコンテンツはマージン 0 でコンパクトに */
+#sidenavi p, #sidenavi ul, #sidenavi ol, #sidenavi dl,
+#navibox p, #navibox ul, #navibox ol, #navibox dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* 回り込み解除設定 */
+#header, #navi, .contents, #footer {
+  clear: both;
+}
+
+/* ハイパーリンク付き画像は枠なし */
+a img {
+  border: none;
+}
+
+/* 画像のみのボックスのパディングは 0 とする */
+.imgbox {
+  padding: 0;
+}
+
+/* 画像のみのボックスの画像の余白は「なし」にしておく */
+.imgbox img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* サムネイルリストはマーカなし，余白なし */
+#thumbslist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#thumbslist li {
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+
+/* サムネイルはボックスの中央に */
+.thumbnail {
+  margin: 0 auto;
+}
+
+/* ---------- バグ回避 ----------- */
+
+/* IE6 で画像が消えることがあるバグを回避 */
+.contents img {
+  position: relative;
+}
+
+/* IE6/IE7 で垂直配置がずれるバグを回避 */
+html[lang^="ja"] #sidenavi {
+  margin-top: 0;
+}

@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------- *
+	text�ݒ�css
+ * ---------------------------------------------------------------- */
+
+body {
+/*
+ * This Stylesheet was based on YUI Library's Fonts CSS.
+ * > Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+ * > Code licensed under the BSD License:
+ * > http://developer.yahoo.net/yui/license.txt
+ * > http://developer.yahoo.com/yui/fonts/
+ * Note: ���̕����̎w��ł́AYahoo! UI Library �� Fonts CSS �𗘗p���āA�e��u���E�U�̃t�H���g�T�C�Y�̍����قڂȂ����ݒ���s���Ă��܂��B�قƂ�ǂ̃��_���u���E�U�ŁA��{�̃t�H���g�T�C�Y��13px�Ǝw�肵�Apixel�P�ʂŎw�肵���Ƃ��� IE �ŃT�C�Y���ύX����Ȃ��s��𖄂߂邽�߂Ƀv���p�e�B�̐擪��*��t����n�b�N(�u���E�U�̃o�O�𗘗p����invalid�ȃn�b�N)�𗘗p���� IE7��small, IE5?6 �� x-small ��ǂݍ��ނ悤�ɐݒ肷�邱�ƂŁA��{�̃t�H���g�T�C�Y���قڑ����܂��B
+ */
+  font-size: 10px;
+  *font-size: small;
+  *font: x-small;
+}
+
+body {
+  font-family: Arial, "�q���M�m�p�S Pro W3", HiraKakuPro-W3, sans-serif;
+  color: #333333;
+}
+
+a,
+a:link {
+  color: #006699;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #006699;
+}
+
+a:hover {
+  /*color: #125382;*/
+  color: #006699;
+  text-decoration: none;
+}
+
+a:active {
+  /* �K�v�Ȃ�΁C�A�N�e�B�u���̃����N�e�L�X�g�Ɋւ���ݒ�����Ă������� */
+  text-decoration: underline;
+}
+
+.new_topic {
+  color: red;
+}
+
+.new_topic a {
+  color: red;
+}
+
+.notice {
+  color: red; !important
+}
+
+p {
+  /* ��{�I�ȃe�L�X�g�v�f�̍s�����ݒ肵�Ă������� */
+  line-height: 1.7;
+  font-size: 100%;
+}
+
+ul, ol, dl {
+  /* ���X�g�֘A�v�f�̍s�����ݒ肵�Ă������� */
+  line-height: 1.3;
+}
+
+p {
+  /* �p���O���t�̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+ul, ol, dl {
+  /* �ӏ������̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  /* ���o�� 1 �̃W�����v����ݒ肵�Ă������� */
+  font-size: 125%;
+  /* ���o�� 1 �̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  /* color: #EEEEEE; */
+  /* ���o�� 2 �̃W�����v����ݒ肵�Ă������� */
+  font-size: 145%;
+  /* ���o�� 2 �̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  /* ���o�� 2 �̃p�f�B���O��ݒ肵�Ă������� */
+  padding-left: 10px;
+  /* ���o�� 2 �̍��[����p�r��̑����E���E�F��ݒ肵�Ă������� */
+  border-left: 5px solid #0086b9;
+  /* ���o�� 2 �̍s�����ݒ肵�Ă������� */
+  line-height: 1.4;
+}
+
+h3 {
+  /* ���o�� 3 �̃W�����v����ݒ肵�Ă������� */
+  font-size: 115%;
+  /* ���o�� 3 �̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  /* ���o�� 4 �̃W�����v����ݒ肵�Ă������� */
+  font-size: 110%;
+  /* ���o�� 4 �̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  /* ���o�� 5 �̃W�����v����ݒ肵�Ă������� */
+  font-size: 105%;
+  /* ���o�� 5 �̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0;
+  border-left: 5px solid #0086b9;
+}
+
+h6 {
+  /* ���o�� 6 �̃W�����v����ݒ肵�Ă������� */
+  font-size: 100%;
+  /* ���o�� 6 �̏㉺�}�[�W����ݒ肵�Ă������� */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* ---------------------------------------------------------------- *
+	�e�����ʂ̐ݒ�
+ * ---------------------------------------------------------------- */
+
+#header {
+   /* �K�v�Ȃ�΁C�w�b�_�����Ɋւ���ݒ�����Ă������� */
+}
+
+.contents {
+   /* �K�v�Ȃ�΁C�R���e���c�����Ɋւ���ݒ�����Ă������� */
+}
+
+#navi {
+    font-size: 15px;
+   /* �K�v�Ȃ�΁C�i�r�Q�[�V���������Ɋւ���ݒ�����Ă������� */
+}
+
+#footer {
+   /* �K�v�Ȃ�΁C�t�b�^�����Ɋւ���ݒ�����Ă������� */
+  font-size: 90%;
+}
+
+#footer address {
+   /* �K�v�Ȃ�΁C�R�s�[���C�g�����Ɋւ���ݒ�����Ă������� */
+  font-style: normal;
+}
