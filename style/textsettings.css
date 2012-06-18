@@ -13,7 +13,7 @@ body {
  * > http://developer.yahoo.com/yui/fonts/
  * Note: ���̕����̎w��ł́AYahoo! UI Library �� Fonts CSS �𗘗p���āA�e��u���E�U�̃t�H���g�T�C�Y�̍����قڂȂ����ݒ���s���Ă��܂��B�قƂ�ǂ̃��_���u���E�U�ŁA��{�̃t�H���g�T�C�Y��13px�Ǝw�肵�Apixel�P�ʂŎw�肵���Ƃ��� IE �ŃT�C�Y���ύX����Ȃ��s��𖄂߂邽�߂Ƀv���p�e�B�̐擪��*��t����n�b�N(�u���E�U�̃o�O�𗘗p����invalid�ȃn�b�N)�𗘗p���� IE7��small, IE5?6 �� x-small ��ǂݍ��ނ悤�ɐݒ肷�邱�ƂŁA��{�̃t�H���g�T�C�Y���قڑ����܂��B
  */
-  font-size: 10px;
+  font-size: 12px;
   *font-size: small;
   *font: x-small;
 }
