@@ -51,7 +51,7 @@ body {
 
 #navi {
   /* --- 背景を設定してください（短縮プロパティでの設定です） --- */
-  background: #FFFFFF url(img/bg.png) repeat-x;
+  /* background: #FFFFFF url(img/bg.png) repeat-x; */
   /* --- マージンを設定してください --- */
   /* Note：上下マージンの折りたたみに注意してください */
   margin-top: 0;
@@ -95,7 +95,7 @@ body {
   /* --- ナビゲーション１項目あたりの下側の境界線の線種と色と太さを指定してください（短縮プロパティでの設定です） --- */
   border-bottom: 2px solid #eeeeee;
   /* --- ナビゲーション１項目あたりの背景画像とリピート方向を指定してください（短縮プロパティでの設定です） --- */
-  background: url(img/bg.png) repeat-x;
+  /* background: url(img/bg.png) repeat-x; */
   /* --- ナビゲーション１項目あたりのフォントの太さを指定してください --- */
   font-weight: bold;
 }
@@ -255,7 +255,7 @@ ul#thumbslist li p {
 }
 
 #schedule{
-  background-image: url(img/tatami.png);
+  /* background-image: url(img/tatami.png); */
 }
 
 #keiko_imgbox{
